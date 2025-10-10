@@ -48,3 +48,29 @@ ls
 git add basics/0-current_working_directory.sh
 cd ..
 git add basics/0-current_working_directory.sh
+git add .
+git add basics/*
+git push
+git push -u main origin
+ls
+git add README.md
+git commit -m "README"
+git branch -M main
+git remote add origin https://github.com/add1ktion/holbertonschool-shell.git
+git push -u origin main
+ls
+git pull origin ;ain
+git pull origin main
+ls
+git add .
+git commit
+git push
+cd basics
+ls
+emacs 0-current_working_directory
+git add .
+git commit
+git push
+git commit 0-current_working_directory
+git push 0-current_working_directory
+cd ..
