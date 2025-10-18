@@ -1,35 +1,20 @@
-Task 0 - Write a script that prints the absolute path name of the current working directory.
+# Shell Basics
 
-Task 1 - Display the contents list of your current directory.
-
-Task 2 - Write a script that changes the zorking directory to the user's home directory. You are not allowed to use any shell variables.
-
-Task 3 - Display current disrectory contents in a long format.
-
-Task 4 - Display current directory contents, including hidden files (starting with .). Use the long format.
-
-Task 5 - Display current directory contents. Long format with user and group IDs displayed numerically And hidden files (starting with .)
-
-Task 6 - Create a script that creates a directory named holberton in the /tmp/ directory.
-
-Task 7 - Move the file betty from /tmp/ to /tmp/holberton.
-
-Task 8 - Delete the file betty. The file betty is in /tmp/holberton
-
-Task 9 - Delete the directory holberton that is in the /tmp directory.
-
-Task 10 - Write a script that changes the working directory to the previous one.
-
-Task 11 - Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
-
-Task 12 - Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
-
-Task 13 - Create a symbolic link to /bin/ls, named ls. The symbolic link should be created in the current working directory.
-
-Task 14 - Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory. You can consider that all HTML files have the extension .html
-
-Task 15 - Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u. You can assume that the directory /tmp/u will exist when we will run your script.
-
-Task 16 - Create a script that deletes all files in the current working directory that end with the character ~.
-
-Task 17 - Create a script that creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory. You are only allowed to use two spaces in your script, not more.
+1. **[Task 0](./0-absolute_path_name)** — Print the absolute path name of the current working directory.
+2. **[Task 1](./1-list_content)** — Display the contents list of your current directory.
+3. **[Task 2](./2-change_to_home)** — Change directory to the user’s home (no shell variables allowed).
+4. **[Task 3](./3-list_long_format)** — Display current directory contents in long format.
+5. **[Task 4](./4-list_hidden_long_format)** — Display contents incl. hidden files using long format.
+6. **[Task 5](./5-list_numeric_ids_hidden)** — Long format with user/group IDs (numeric) and hidden files.
+7. **[Task 6](./6-create_holberton_tmp)** — Create directory `holberton` in `/tmp/`.
+8. **[Task 7](./7-move_betty)** — Move file `betty` from `/tmp/` to `/tmp/holberton`.
+9. **[Task 8](./8-delete_betty)** — Delete file `betty` in `/tmp/holberton`.
+10. **[Task 9](./9-delete_holberton)** — Delete directory `holberton` in `/tmp/`.
+11. **[Task 10](./10-prev_dir)** — Change to previous working directory.
+12. **[Task 11](./11-list_recursive_hidden)** — List all files (including hidden and in `/boot`) in long format.
+13. **[Task 12](./12-print_iamafile_type)** — Print the type of the file `iamafile` in `/tmp/`.
+14. **[Task 13](./13-symbolic_link_ls)** — Create a symbolic link `__ls__` to `/bin/ls`.
+15. **[Task 14](./14-copy_html_files)** — Copy all `.html` files (new or updated only) to parent directory.
+16. **[Task 15](./15-move_uppercase)** — Move all files beginning with uppercase letter to `/tmp/u/`.
+17. **[Task 16](./16-delete_tilde_files)** — Delete all files in current directory ending with `~`.
+18. **[Task 17](./17-make_welcome_dirs)** — Create the directories `welcome/`, `welcome/to/`, and `welcome/to/holberton/`.
