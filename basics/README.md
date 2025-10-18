@@ -1,6 +1,6 @@
 # Shell Basics
 
-1. **[Task 0](https://github.com/add1ktion/holbertonschool-shell/blob/main/basics/0-absolute_path_name)** - Print the absolute path name of the current working directory.
+1. **[Task 0](https://github.com/add1ktion/holbertonschool-shell/blob/main/basics/0-current_working_directory)** - Print the absolute path name of the current working directory.
 2. **[Task 1](https://github.com/add1ktion/holbertonschool-shell/blob/main/basics/1-list_content)** - Display the contents list of your current directory.
 3. **[Task 2](https://github.com/add1ktion/holbertonschool-shell/blob/main/basics/2-change_to_home)** - Write a script that changes the working directory to the user's home directory> You are not allowed to use any shell variables.
 4. **[Task 3](https://github.com/add1ktion/holbertonschool-shell/blob/main/basics/3-list_long_format)** - Display current directory contents in a long format.
