@@ -1,16 +1,10 @@
-This repository is was created with education purpose. The content of the directory is based on shell command and a brief explanation.
-Table of Content
+# Holbertonschool Shell
 
-    Basic: Contains a script of a basic shell command (more information in the README.md inside the folder).
+This repository was created for education purpose. The content of the directory is based on shell commands and a brief explanation.
 
-    Shell permissions: Contains scripts that changes the owner, group of file permissions.
+## Table of Contents
 
-    I/O Redirections and filters: Accomplished using a redirection operator which allows the user to specify the input or output data be redirected to (or from) a file.
-
-    Init files, variables and expansions:
-
-    (Expansion) each time we type a command line and press the enter key, bash perfoms several processes upon the text before it carries out our command.
-
-    (Varible) is a variable that is available only to the current shell. In contrast, an enciorment variable is available system wide and can be used by other aplication on the system.
-
-    (Init files) A shell initialization file is a shell script that runs automatically each time the shell executes. The initialization file sets up the "work enviorment" and "customizes" the shell enviorment for the user.
+1. [Basic](./basics): Contains a script of a basic shell command (see the README.md inside the folder).
+2. [Shell permissions](./permissions): Contains scripts that change the owner, group or file permissions.
+3. [I/O Redirections and filters](./io_redirections_and_filters): Scripts using redirection operators where the user can specify input or output to/from a file.
+4. [Init files, variables and expansions](./init_files_variables_and_expansions): Init scripts and explanation about variables and shell expansion.
