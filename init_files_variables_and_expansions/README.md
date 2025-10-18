@@ -1,29 +1,20 @@
-Task 0 - Create a script that creates an alias. alias ls="rm *"
+# Init files, variables and expansions
 
-Task 1 - Create a script that prints hello user, where user is the current Linux user. echo hello $USER
-
-Task 2 - Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program. export PATH=$PATH:/action
-
-Task 3 - Create a script that counts the number of directories in the PATH.
-
-Task 4 - Create a script that lists environment variables.
-
-Task 5 - Create a script that lists all local variables and environment variables, and functions. set
-
-Task 6 - Create a script that creates a new local variable. BEST="School"
-
-Task 7 - Create a script that creates a new global variable. export BEST=School
-
-Task 8 - Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line. echo $(( TRUEKNOWLEDGE + 128 ))
-
-Task 9 - Write a script that prints the result of POWER divided by DIVIDE, followed by a new line. echo $(($POWER / $DIVIDE))
-
-Task 10 - Write a script that displays the result of BREATH to the power LOVE. echo $(( BREATH ** LOVE))
-
-Task 11 - Write a script that converts a number from base 2 to base 10. echo $((2#$BINARY))
-
-Task 12 - Create a script that prints all possible combinations of two letters, except oo. echo {a..z}{a..z} | tr ' ' '\n' | grep -v 'oo'
-
-Task 13 - Write a script that prints a number with two decimal places, followed by a new line. printf "%0.2f\n" "$NUM"
-
-Task 14 - Write a script that converts a number from base 10 to base 16. printf "%x\n" $DECIMAL
+1. **[Task 0](https://github.com/add1ktion/holbertonschool-shell/blob/main/init_files_variables_and_expansions/0-alias)** - Create a script that creates an alias.
+2. **[Task 1](https://github.com/add1ktion/holbertonschool-shell/blob/main/init_files_variables_and_expansions/1-hello_you)** - Create a script that prints hello user, where user is the current Linux user.
+3. **[Task 2](https://github.com/add1ktion/holbertonschool-shell/blob/main/init_files_variables_and_expansions/2-path)** - Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
+4. **[Task 3](https://github.com/add1ktion/holbertonschool-shell/blob/main/init_files_variables_and_expansions/3-paths)** - Create a script that counts the number of directories in the PATH.
+5. **[Task 4](https://github.com/add1ktion/holbertonschool-shell/blob/main/init_files_variables_and_expansions/4-global_variables)** - Create a script that lists environment variables.
+6. **[Task 5](https://github.com/add1ktion/holbertonschool-shell/blob/main/init_files_variables_and_expansions/5-local_variables)** - Create a script that lists all local variables and environment variables, and functions.
+7. **[Task 6](https://github.com/add1ktion/holbertonschool-shell/blob/main/init_files_variables_and_expansions/6-create_local_variable)** - Create a script that creates a new local variable.
+8. **[Task 7](https://github.com/add1ktion/holbertonschool-shell/blob/main/init_files_variables_and_expansions/7-create_global_variable)** - Create a script that creates a new global variable.
+9. **[Task 8](https://github.com/add1ktion/holbertonschool-shell/blob/main/init_files_variables_and_expansions/8-true_knowledge)** - Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+10. **[Task 9](https://github.com/add1ktion/holbertonschool-shell/blob/main/init_files_variables_and_expansions/9-divide_and_rule)** - Write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
+11. **[Task 10](https://github.com/add1ktion/holbertonschool-shell/blob/main/init_files_variables_and_expansions/10-love_exponent_breath)** - Write a script that displays the result of BREATH to the power LOVE.
+12. **[Task 11](https://github.com/add1ktion/holbertonschool-shell/blob/main/init_files_variables_and_expansions/11-binary_to_decimal)** - Write a script that converts a number from base 2 to base 10. echo $((2#$BINARY))
+13. **[Task 12](https://github.com/add1ktion/holbertonschool-shell/blob/main/init_files_variables_and_expansions/12-combinations)** - Create a script that prints all possible combinations of two letters, except oo.
+14. **[Task 13](https://github.com/add1ktion/holbertonschool-shell/blob/main/init_files_variables_and_expansions/13-print_float)** - Write a script that prints a number with two decimal places, followed by a new line.
+15. **[Task 14](https://github.com/add1ktion/holbertonschool-shell/blob/main/init_files_variables_and_expansions/14-decimal_to_hexadecimal)** - Write a script that converts a number from base 10 to base 16.
+16. - Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+17. - Write a script that prints every other line from the input, starting with the first line.
+18. - Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
