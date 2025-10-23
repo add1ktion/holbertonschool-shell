@@ -35,4 +35,11 @@ This repository was created for education purpose.
 
 
 5. [I/O Redirections and filters](./io_redirections_and_filters) :
-6. [Init files, variables and expansions](./init_files_variables_and_expansions) :
+
+    - What do the commands head, tail, find, wc, sort, uniq, grep, tr do
+    - How to redirect standard output to a file
+    - How to get standard input from a file instead of the keyboard
+    - How to send the output from one program to the input of another program
+    - How to combine commands and filters with redirections   
+    - What are special characters
+    - Understand what do the white spaces, single quotes, double quotes, backslash, comment, pipe, command separator, tilde and how and when to use them
